@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Rental</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="@medi_query.css" />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- swiper js cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- main container -->
+    <div id="main-container">
+      <!-- Navbar -->
+      <div id="navbar">
+        <!-- logo -->
+        <div class="logo">
+          <a href="#">CAR<span></span>RENTAL</a>
+          <p>TOP CAR RENTAL DEALS -SAVE BIG!</p>
+        </div>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#vehicle-model">Vehicle Models</a></li>
+          <li><a href="#youtube">Information</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <!-- Hero Section -->
+      <section id="hero">
+        <div class="hero-card">
+          <!-- heading -->
+          <h3>Book your Car here</h3>
+          <!-- select car type -->
+          <div class="car-type">
+            <select name="" id="">
+              <option value="0">Select your car type</option>
+              <option value="">Audii</option>
+              <option value="">Scorpio</option>
+              <option value="">Mercedes Benz</option>
+              <option value="">Maruti Swift</option>
+            </select>
+          </div>
+          <!-- pick-up location -->
+          <div class="location">
+            <div class="pick-up">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Pick Up</p>
+            </div>
+            <div class="enter-location">
+              <input type="text" placeholder="Enter a city or Airport" />
+            </div>
+          </div>
+          <!-- drop-off location -->
+          <div class="location">
+            <div class="pick-up">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Drop Off</p>
+            </div>
+            <div class="enter-location">
+              <input type="text" placeholder="Enter a city or Airport" />
+            </div>
+          </div>
+          <!-- pick up date -->
+          <div class="date">
+            <div class="pick-up-date">
+              <div class="pick-up-d">
+                <i class="fa-solid fa-calendar-days"></i>
+                <p>Pick Up</p>
+              </div>
+              <div class="enter-date">
+                <input type="date" />
+              </div>
+            </div>
+            <div class="enter-time">
+              <input type="time" />
+            </div>
+          </div>
+          <!-- pick up date -->
+          <div class="date">
+            <div class="pick-up-date">
+              <div class="pick-up-d">
+                <i class="fa-solid fa-calendar-days"></i>
+                <p>Drop Off</p>
+              </div>
+              <div class="enter-date">
+                <input type="date" />
+              </div>
+            </div>
+            <div class="enter-time">
+              <input type="time" />
+            </div>
+          </div>
+          <!-- car reservation button -->
+          <button>CONTINUE CAR RESERVATION</button>
+        </div>
+        <div class="hero-img">
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <!-- car img 1 -->
+              <div class="swiper-slide">
+                <h2 class="swiper-h2">Get 15% Off Your Rental</h2>
+                <h6 class="swiper-h6">Plan your Trip now</h6>
+                <img src="./assets/car1.png" alt="" />
+              </div>
+              <!-- car img 2 -->
+              <div class="swiper-slide">
+                <h2 class="swiper-h2">LUXURY CAR FROM FROM $28 DAY</h2>
+                <h6 class="swiper-h6">Treat yourself India</h6>
+                <img src="./assets/car4.png" alt="" />
+              </div>
+              <!-- car img 3 -->
+              <div class="swiper-slide">
+                <h2 class="swiper-h2">Normal CAR Starts from $10 DAY</h2>
+                <h6 class="swiper-h6">Enjoy your Trip with family</h6>
+                <img src="./assets/car5.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <section id="service">
+        <h2>Customer Sevices</h2>
+        <div class="underline"></div>
+        <div class="service-cards">
+          <!-- service box 1 -->
+          <div class="service-box">
+            <div class="box-h">
+              <i class="fa-sharp fa-solid fa-plus"></i>
+              <h5>Special rates on car booking</h5>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+              nonumy eirmod tempor invidunt ut labore et dolore magnaed aliquyam
+              erat, sed diam voluptua. At vero eos et accusam et justo duo
+              dolores et ea rebum. Stet clita kasd gubergren.
+            </p>
+          </div>
+          <!-- service box 2 -->
+          <div class="service-box">
+            <div class="box-h">
+              <i class="fa-sharp fa-solid fa-plus"></i>
+              <h5>Mobile Phone Reservation</h5>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+              nonumy eirmod tempor invidunt ut labore et dolore magnaed aliquyam
+              erat, sed diam voluptua. At vero eos et accusam et justo duo
+              dolores et ea rebum. Stet clita kasd gubergren.
+            </p>
+          </div>
+          <!-- service box 3 -->
+          <div class="service-box">
+            <div class="box-h">
+              <i class="fa-sharp fa-solid fa-plus"></i>
+              <h5>Unlimited Miles Car Rental</h5>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+              nonumy eirmod tempor invidunt ut labore et dolore magnaed aliquyam
+              erat, sed diam voluptua. At vero eos et accusam et justo duo
+              dolores et ea rebum. Stet clita kasd gubergren.
+            </p>
+          </div>
+          <!-- service box 4 -->
+          <div class="service-box">
+            <div class="box-h">
+              <i class="fa-sharp fa-solid fa-plus"></i>
+              <h5>One Way Car Rentals</h5>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+              nonumy eirmod tempor invidunt ut labore et dolore magnaed aliquyam
+              erat, sed diam voluptua. At vero eos et accusam et justo duo
+              dolores et ea rebum. Stet clita kasd gubergren.
+            </p>
+          </div>
+        </div>
+        <div class="signup">
+          <div class="signup-h">
+            <h4 class="signup-h4">SIGN UP FOR AMAZING OFFERS</h4>
+            <h6 class="signup-h6">
+              EXCLUSIVE ACCESS FOR OFFERS AND PROMOTIONS
+            </h6>
+          </div>
+          <div class="signup-input">
+            <input type="email" placeholder="Enter your email address" />
+            <a href="#">SEND</a>
+          </div>
+        </div>
+      </section>
+      <!-- Vehicle Model -->
+      <section id="vehicle-model">
+        <h2>Vehicle Models - <span>Our rental fleet at a glance</span></h2>
+        <!-- display grid -->
+        <div class="grid-container">
+          <!-- grid box 1 -->
+          <div class="g-box" id="g-box1">
+            <div class="box1">Hyundia Creta</div>
+            <div class="box">Audi A1 S-LINE</div>
+            <div class="box">Toyota Camry</div>
+            <div class="box">BMW 320 Modern-Line</div>
+            <div class="box">Mercedes-Benz GLK</div>
+            <div class="box">VW Passat CC</div>
+          </div>
+          <!-- grid box 2 (image) -->
+          <div class="g-box" id="g-box2">
+            <img src="/assets/car2.png" alt="" />
+          </div>
+          <!-- grid box 3 -->
+          <div class="g-box" id="g-box3">
+            <div class="box-1">$ 37.40 rent per day</div>
+            <div class="boxx">
+              <div>Model</div>
+              <div>Creta SX</div>
+            </div>
+            <div class="boxx">
+              <div>Doors</div>
+              <div>4</div>
+            </div>
+            <div class="boxx">
+              <div>Seats</div>
+              <div>5</div>
+            </div>
+            <div class="boxx">
+              <div>Luggage</div>
+              <div>2 Suitcases/2 Bags</div>
+            </div>
+            <div class="boxx">
+              <div>Transmission</div>
+              <div>Automatic</div>
+            </div>
+            <div class="boxx">
+              <div>Air Conditioning</div>
+              <div>Yes</div>
+            </div>
+            <div class="boxx">
+              <div>Minimum Age</div>
+              <div>25 Years</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Youtube Section -->
+      <section id="youtube">
+        <div class="youtube-left">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/9_5pjZlWV3A?si=yLenpKDreK5oW1ry"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="youtube-right">
+          <h2>Watch our info tour</h2>
+          <h4>You can also show youtube videos in this section!</h4>
+          <p>
+            Here is some dummy text. Lorem ipsum dolor sit amet, This is an
+            labeled text snippet!, sed diam nonumy eirmod tempor invidunt ut
+            labore et dolore magna aliquyam erat, sed diam voluptua.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, vero
+            voluptas delectus explicabo maxime ad qui incidunt! no sea takimata
+            sanctus est Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+      </section>
+      <!-- Meet Our Partners -->
+      <section id="partners">
+        <h2>Meet Our Partners</h2>
+        <div id="underline"></div>
+        <p>
+          To contribute to positive change and achieve our sustainability goals,
+          we partner with many extraordinary organizations around the world.
+          Their expertise enables us to do far more than we could alone, and
+          their passion and talent inspire us. It is our pleasure to introduce
+          you to a handful of the organizations whose accomplishments and
+          commitments are representative of all the organizations we are
+          fortunate to call our partners.
+        </p>
+        <div class="partner-imgs">
+          <img src="/assets/partner1.png" alt="" />
+          <img src="/assets/partner2.png" alt="" />
+          <img src="/assets/partner3.png" alt="" />
+          <img src="/assets/partner4.png" alt="" />
+        </div>
+      </section>
+      <!-- Contact Us Section -->
+      <section id="contact">
+        <h3>Contact Us</h3>
+        <div class="contact-main">
+          <div class="contact-left">
+            <p>You have any questions or need additional information?</p>
+            <h6>
+              <span>Address:</span> Car|Rental / 3861 Sepulveda Blvd. / Culver
+              City, CA 90230
+            </h6>
+            <form action="">
+              <!-- first & last name -->
+              <div class="f-l-name">
+                <input type="text" placeholder="First Name :" />
+                <input type="text" placeholder="Last Name :" />
+              </div>
+              <!-- Telephone -->
+              <div class="input">
+                <input type="text" placeholder="Telephone :" />
+              </div>
+              <!-- Email -->
+              <div class="input">
+                <input type="email" placeholder="Email :" />
+              </div>
+              <!-- Message textarea -->
+              <div class="input">
+                <textarea
+                  name=""
+                  id=""
+                  rows="10"
+                  cols="80"
+                  placeholder="Message :"
+                ></textarea>
+              </div>
+            </form>
+            <button class="submit-btn">SUBMIT MESSAGE</button>
+          </div>
+          <div class="contact-right">
+            <!-- first box -->
+            <h6>Customer Center</h6>
+            <div class="contact-box">
+              <div class="box-flex">
+                <img src="/assets/contact-box-img1.jpg" alt="" />
+                <div class="box-col">
+                  <div class="box-head">Sarah Connor</div>
+                  <p><span>Phone:</span> 666-999-888</p>
+                  <p><span>Email:</span> connor@example.com</p>
+                </div>
+              </div>
+            </div>
+            <!-- first box -->
+            <h6>Change or Cancel Reservation</h6>
+            <div class="contact-box">
+              <div class="box-flex">
+                <img src="/assets/contact-box-img2.jpg" alt="" />
+                <div class="box-col">
+                  <div class="box-head">Mike Smith</div>
+                  <p><span>Phone:</span> 666-999-888</p>
+                  <p><span>Email:</span> connor@example.com</p>
+                </div>
+              </div>
+            </div>
+            <!-- third box -->
+            <!-- <h6>Change or Cancel Reservation</h6> -->
+            <div class="contact-box contact-box-gap">
+              <div class="box-flex">
+                <img src="/assets/contact-box-img3.jpg" alt="" />
+                <div class="box-col">
+                  <div class="box-head">Jane Doe</div>
+                  <p><span>Phone:</span> 666-999-888</p>
+                  <p><span>Email:</span> connor@example.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer Section -->
+      <footer>© 2024 Themeinjection | All Rights Reserved</footer>
+      <!-- Sign Up Section -->
+      <!-- <div style="height: 50vh"></div> -->
+    </div>
+    <!-- adding swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- adding js -->
+    <script src="script.js"></script>
+  </body>
+</html>
